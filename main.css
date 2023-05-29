@@ -1,0 +1,50 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: red;
+    grid-column: 1;
+    grid-row: 1 / 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 15fr;
+}
+
+.header {
+    background-color: green;
+    grid-column: 2 / 4;
+    grid-row: 1;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2.2fr;
+}
+
+.content-container {
+    background-color: blue;
+}
+
+.sb-logo {
+    background-color: aquamarine;
+}
+
+.sb-nav {
+    background-color: brown;
+}
+
+.upper-container {
+    background-color: blueviolet;
+}
+
+.lower-container {
+    background-color: greenyellow;
+}
